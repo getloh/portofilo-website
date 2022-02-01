@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 1px solid maroon;
+    
+}
+
+section {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    min-height: 70vh;
+}
+
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+#section1 {
+    background-color: rgb(226, 253, 247);
+    display: flex;
+    justify-content: space-around;
+}
+
+#introtext {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+/* Section 2 */
+
+#section2 {
+    background-color: coral;
+    display: flex;
+}
+#about {
+    max-width: 25vw;
+}
+
+#work {
+    width: 25vw;
+}
+
+
+/* Section 3 */
+
+#section3 {
+    background-color: rgb(246, 255, 213);
+}
+.portfolio-container {
+    margin: 5%;
+    display: flex;
+    background-color: white;
+}
+.portfolio-side{
+    margin: 5vh 0 0 5vh;
+    width: 30vw;
+    overflow: auto;
+}
+.carousel {
+    margin: 5vh;
+    width: 100%;
+}
+
+
+
+/* Section 4 */
+
+
+
+
+#section4{
+    background-color: rgb(37, 37, 37)
+}
+
+
+
+/* ---------------------------------------
+----------BOOTSTRAP STUFF-----------------
+------------------------------------------ */
+
+
+/* Section 2 - about/work/personal*/
+.accordion-item{
+    background-color: grey;
+    color: blue;
+}
+.accordion-button{
+    background-color: yellow;
+}
+/* ^ Accordion button title color , Accordion buttle title color when expanded V */
+.accordion-button:not(.collapsed){  
+    background-color: yellow;
+}
+
+/* Section 3 - portfolio */
+
+.carousel-caption{
+    color: black;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: blue;
+}
