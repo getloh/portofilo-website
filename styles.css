@@ -14,6 +14,8 @@ section {
 }
 
 
+
+
 .center {
     display: flex;
     align-items: center;
@@ -191,8 +193,7 @@ section {
     padding: 0 4vh;
     color: white;
 
-    max-width: 1920px;
-    
+
 
 }
 .portfolio-side{
@@ -203,6 +204,10 @@ section {
 .carousel {
     margin: 5vh 2vh;
     width: 100%;
+}
+.carousel-inner {
+    border-radius: 5px;
+    border: 1px lightgrey solid;
 }
 .carousel-caption{
     padding-top: 0px;
@@ -216,8 +221,7 @@ section {
 
 }
 #carouselPortfolio3-container {
-    margin-left: 7vw;
-    margin-right: 7vw;
+    margin: 0 10vw;
 }
 
 iframe{
@@ -292,5 +296,15 @@ iframe{
     border-radius: 20px;
 }
 .carousel-indicators [data-bs-target] {
-    background-color: rgb(4, 57, 82);
+    background-color: rgb(13, 142, 202);
+}
+
+
+
+/* Conditionals */
+
+@media screen and (min-width: 1400px) {
+    .portfolio-container{
+        margin: 3vh 10vw;
+    }
 }
