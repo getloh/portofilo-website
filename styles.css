@@ -2,15 +2,15 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    border: 1px solid maroon;
+    /* border: 1px solid maroon; */
     
 }
 
 section {
     margin: 0px;
-    padding: 0px;
+    padding: 5vh;
     width: 100%;
-    min-height: 70vh;
+    min-height: 30vh;
 }
 
 
@@ -25,10 +25,25 @@ section {
     flex-direction: column;
 }
 
+.rounded-4 {
+    border-radius: 10px;
+}
+
+.wave{
+    position: relative;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* ----------------- Section 1 ---------------*/
+
 #section1 {
-    background-color: rgb(226, 253, 247);
+    background-color: rgb(233, 246, 252);
     display: flex;
     justify-content: space-around;
+    padding: 20vh 0;
 }
 
 #introtext {
@@ -36,51 +51,214 @@ section {
     align-items: flex-start;
 }
 
+#section1-bottom{
+    background-color: rgb(233, 246, 252);
+    position: relative;
+}
 
-/* Section 2 */
+.custom-shape-divider-bottom-1643801296 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1643801296 svg {
+    position: relative;
+    display: block;
+    width: calc(105% + 1.3px);
+    height: 186px;
+}
+
+.custom-shape-divider-bottom-1643801296 .shape-fill {
+    fill: #043952;
+}
+/* ----------------- Section 2 ---------------*/
 
 #section2 {
-    background-color: coral;
+    background-color: rgb(4, 57, 82);
     display: flex;
+    justify-content: space-between;
 }
+
+
 #about {
-    max-width: 25vw;
+    max-width: 35vw;
+    margin: 0 2vw;
+    padding: 2vh;
+}
+
+#section2-right{
+    width: 60vw;
+    padding: 0 2vh;
 }
 
 #work {
-    width: 25vw;
+    padding: 2vh 2vh;
+    
+}
+#personal {
+    margin: 0 0 3vh 0;
+    padding: 2vh;
 }
 
 
-/* Section 3 */
+/* ----------------- Section 2.5 ----------------*/
+
+#section2spacer{
+    background-color: rgb(233, 246, 252);
+    position: relative;
+    min-height: 50vh;
+}
+
+#section2spacer h1{
+    margin-top: 3vh;
+}
+#skills{
+    display: flex;
+    justify-content: center;
+}
+
+.skillbox{
+    height: 15vh;
+    width: 5vw;
+    max-width: 5vw;
+    max-height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 1.5vw;
+}
+#css3 {
+    padding-top: 2px;
+}
+
+
+.custom-shape-divider-top-1643802244 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1643802244 svg {
+    position: relative;
+    display: block;
+    width: calc(125% + 1.3px);
+    height: 59px;
+}
+
+.custom-shape-divider-top-1643802244 .shape-fill {
+    fill: #043952;
+}
+.custom-shape-divider-bottom-1643802274 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1643802274 svg {
+    position: relative;
+    display: block;
+    width: calc(125% + 1.3px);
+    height: 59px;
+}
+
+.custom-shape-divider-bottom-1643802274 .shape-fill {
+    fill: #043952;
+}
+
+/* ----------------- Section 3 ----------------*/
 
 #section3 {
-    background-color: rgb(246, 255, 213);
+    background-color: rgb(4, 57, 82);
+    color: rgb(230, 230, 230);
 }
+
 .portfolio-container {
-    margin: 5%;
+    margin: 3vh 0;
     display: flex;
-    background-color: white;
+    background-color: rgb(43, 43, 43);
+    padding: 0 4vh;
+    color: white;
+
+    max-width: 1920px;
+    
+
 }
 .portfolio-side{
-    margin: 5vh 0 0 5vh;
+    margin: 5vh 2vh;
     width: 30vw;
     overflow: auto;
 }
 .carousel {
-    margin: 5vh;
+    margin: 5vh 2vh;
     width: 100%;
+}
+.carousel-caption{
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+.carousel-caption h5 {
+    
+}
+.carousel-caption p{
+
+}
+#carouselPortfolio3-container {
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+
+iframe{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.gfycat {
+    max-height: 100px;
 }
 
 
+/* #expand-button{
+    height: 60px;
+    width: 60px;
+    transform: rotate(90deg);
+    filter: invert(100%);
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:visible;
+}
+#expand-text{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 10px;
+} */
 
-/* Section 4 */
+
+
+/* ---------------Section 4 ---------------*/
 
 
 
 
 #section4{
-    background-color: rgb(37, 37, 37)
+    background-color: rgb(37, 37, 37);
+    color: rgb(201, 201, 201);
+    min-height: 50vh;
 }
 
 
@@ -92,22 +270,27 @@ section {
 
 /* Section 2 - about/work/personal*/
 .accordion-item{
-    background-color: grey;
-    color: blue;
+    background-color: white;
+    color: rgb(20, 20, 20);;
 }
 .accordion-button{
-    background-color: yellow;
+    background-color: rgb(240, 240, 240);
 }
 /* ^ Accordion button title color , Accordion buttle title color when expanded V */
 .accordion-button:not(.collapsed){  
-    background-color: yellow;
+    background-color: rgb(206, 226, 226);
+    color: black;
 }
 
 /* Section 3 - portfolio */
 
 .carousel-caption{
-    color: black;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 5px;
+
+    border-radius: 20px;
 }
 .carousel-indicators [data-bs-target] {
-    background-color: blue;
+    background-color: rgb(4, 57, 82);
 }
