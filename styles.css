@@ -45,12 +45,34 @@ section {
     background-color: rgb(233, 246, 252);
     display: flex;
     justify-content: space-around;
-    padding: 20vh 0;
+    /* padding: 20vh 0; */
+    height: 55vh;
 }
 
 #introtext {
     flex-direction: column;
     align-items: flex-start;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+#introtext h1{
+    font-size: 3rem;
+}
+#introtext h2{
+    font-size: 2rem;
+    color:rgb(90, 90, 90);
+    margin-left: 5vw;
+}
+
+#profilepic {
+    width: 20vw;
+    height: 20vw;
+    max-width: 400px;
+    max-height: 400px;
+    background-color: rgb(105, 156, 156);
+    overflow: hidden;
+    margin-right: 50px;
+    margin-top: 10vh;
 }
 
 #section1-bottom{
@@ -263,7 +285,7 @@ iframe{
 #section4{
     background-color: rgb(37, 37, 37);
     color: rgb(201, 201, 201);
-    min-height: 50vh;
+    min-height: 40vh;
 }
 #section4 header {
     text-align: center;
